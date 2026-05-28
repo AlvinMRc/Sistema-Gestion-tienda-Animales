@@ -1,13 +1,13 @@
 # 🐾 Paw House System
 Sistema de gestión de escritorio para tiendas especializadas en la venta de animales (pet shops), desarrollado en **Java Swing** con base de datos **MySQL**.
 
----
+
 
 ##  Descripción
 
 Paw House System centraliza la administración de una tienda de animales, permitiendo gestionar empleados, inventario de animales, órdenes de compra, ventas y proveedores desde una sola plataforma. Reemplaza el manejo manual de información por un entorno digital seguro y organizado.
 
----
+
 
 ##  Módulos del Sistema
 
@@ -24,7 +24,7 @@ Paw House System centraliza la administración de una tienda de animales, permit
 | **Proveedores** | Registro de suplidores con datos de contacto |
 | **Ayuda** | Centro de ayuda con instrucciones de uso |
 
----
+
 
 ##  Tecnologías
 
@@ -36,7 +36,7 @@ Paw House System centraliza la administración de una tienda de animales, permit
 - **JDBC (mysql-connector-j 8.3.0)** — Conexión Java ↔ MySQL
 - **Apache Maven 3.x** — Gestión de dependencias
 
----
+
 
 ##  Requisitos
 
@@ -45,7 +45,7 @@ Paw House System centraliza la administración de una tienda de animales, permit
 - Laragon (o cualquier servidor MySQL local) en el puerto `3306`
 - Base de datos `paw_house_db` creada en MySQL
 
----
+
 
 ##  Base de Datos
 
@@ -55,11 +55,11 @@ La base de datos se llama `paw_house_db`. Las tablas principales son:
 
 La conexión se configura en `src/main/java/com/pawhouse/system/config/DatabaseConnection.java`.
 
----
+
 
 ##  Instalación y Ejecución
 
-```bash
+
 # 1. Clonar el repositorio
 git clone https://github.com/AlvinMRc/Sistema-Gestion-tienda-Animales.git
 
@@ -69,9 +69,9 @@ git clone https://github.com/AlvinMRc/Sistema-Gestion-tienda-Animales.git
 # 3. Compilar y ejecutar con Maven
 mvn clean install
 mvn exec:java
-```
 
----
+
+
 
 ##  Roles de Usuario
 
@@ -82,20 +82,19 @@ mvn exec:java
 | Gestionar proveedores y empleados | ✅ | ❌ |
 | Acceder a reportes | ✅ | ❌ |
 
----
+
 
 ##  Estructura del Proyecto
 
-```
 com.pawhouse.system
 ├── config/       # DatabaseConnection.java
 ├── models/       # POJOs (Animal, Employee, Sale, ...)
 ├── dao/          # Operaciones SQL (AnimalDAO, SaleDAO, ...)
 └── views/        # Formularios Swing (Login, Dashboard, Paneles)
-```
 
----
 
-##  Soporte
 
-pawhouse@gmail.com
+
+
+
+
