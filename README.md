@@ -3,13 +3,13 @@ Sistema de gestión de escritorio para tiendas especializadas en la venta de ani
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 Paw House System centraliza la administración de una tienda de animales, permitiendo gestionar empleados, inventario de animales, órdenes de compra, ventas y proveedores desde una sola plataforma. Reemplaza el manejo manual de información por un entorno digital seguro y organizado.
 
 ---
 
-## 🚀 Módulos del Sistema
+##  Módulos del Sistema
 
 | Módulo | Descripción |
 |---|---|
@@ -26,9 +26,9 @@ Paw House System centraliza la administración de una tienda de animales, permit
 
 ---
 
-## 🛠️ Tecnologías
+##  Tecnologías
 
-- **Java 21** — Lenguaje principal
+- **Java 25** — Lenguaje principal
 - **Java Swing** — Interfaz gráfica de usuario
 - **FlatLaf 3.6** — Tema visual Dark moderno
 - **MySQL 8.0+** — Base de datos relacional
@@ -38,16 +38,16 @@ Paw House System centraliza la administración de una tienda de animales, permit
 
 ---
 
-## ⚙️ Requisitos
+##  Requisitos
 
-- Java JDK 21+
+- Java JDK 21 o superior
 - Apache Maven 3.x
 - Laragon (o cualquier servidor MySQL local) en el puerto `3306`
 - Base de datos `paw_house_db` creada en MySQL
 
 ---
 
-## 🗄️ Base de Datos
+##  Base de Datos
 
 La base de datos se llama `paw_house_db`. Las tablas principales son:
 
@@ -57,7 +57,7 @@ La conexión se configura en `src/main/java/com/pawhouse/system/config/DatabaseC
 
 ---
 
-## ▶️ Instalación y Ejecución
+##  Instalación y Ejecución
 
 ```bash
 # 1. Clonar el repositorio
@@ -73,7 +73,7 @@ mvn exec:java
 
 ---
 
-## 👥 Roles de Usuario
+##  Roles de Usuario
 
 | Función | Admin | Empleado |
 |---|:---:|:---:|
@@ -84,7 +84,7 @@ mvn exec:java
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 com.pawhouse.system
@@ -96,6 +96,6 @@ com.pawhouse.system
 
 ---
 
-## 📧 Soporte
+##  Soporte
 
 pawhouse@gmail.com
