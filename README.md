@@ -87,10 +87,10 @@ mvn exec:java
 ##  Estructura del Proyecto
 
 com.pawhouse.system
-├── config/       # DatabaseConnection.java
-├── models/       # POJOs (Animal, Employee, Sale, ...)
-├── dao/          # Operaciones SQL (AnimalDAO, SaleDAO, ...)
-└── views/        # Formularios Swing (Login, Dashboard, Paneles)
+├── config/        DatabaseConnection.java
+├── models/        POJOs (Animal, Employee, Sale, ...)
+├── dao/           Operaciones SQL (AnimalDAO, SaleDAO, ...)
+└── views/        #Formularios Swing (Login, Dashboard, Paneles)
 
 
 
